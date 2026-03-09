@@ -167,7 +167,7 @@
           '<pre>' +
           '╔══════════════════════════════════════════════════════════╗\n' +
           '║                                                     ║\n' +
-          '║   Welcome to Dhanush\'s Portfolio Terminal v1.0      ║\n' +
+          '║   Welcome to Dhanush\'s Portfolio Terminal           ║\n' +
           '║                                                     ║\n' +
           '║   Type \'help\' to see available commands.            ║\n' +
           '║                                                     ║\n' +
@@ -203,19 +203,12 @@
           '<pre>' +
           'About\n' +
           '─────\n\n' +
-          'Computer Science Engineering undergraduate at VIT-AP\n' +
-          'University with experience in building scalable backend\n' +
-          'systems, applied AI, and software engineering.\n\n' +
-          'Previously, Backend Developer Intern at StudyCubs, where\n' +
-          'I developed real-time analytics pipelines and LLM-powered\n' +
-          'automation tools, delivering insights with sub-200ms\n' +
-          'latency. At AK Capital Advisors, I designed secure APIs\n' +
-          'and optimized database systems supporting large-scale\n' +
-          'financial workflows across microservices.\n\n' +
-          'Currently, Co-Lead of Deep Learning & Computer Vision\n' +
-          'Team at The Machine Learning Club VIT-AP, leading\n' +
-          'technical initiatives, mentoring teams, and driving\n' +
-          'research in generative models and training optimization.\n' +
+          'Backend developer experienced in building scalable FastAPI\n' +
+          'systems that serve 5k+ users at 200ms latency while\n' +
+          'delivering up to 50% efficiency gains through LLM-powered\n' +
+          'PostgreSQL solutions. Led multiple high-impact ML club\n' +
+          'projects that achieved 90%+ accuracy in real-time computer\n' +
+          'vision and GAN-based image synthesis systems.\n' +
           '</pre>'
         );
         break;
@@ -229,29 +222,30 @@
           '<a href="https://www.linkedin.com/company/study-cubs/" target="_blank" rel="noopener">StudyCubs</a>\n' +
           'December 2025 - January 2026 · 1 mo\n' +
           'Remote - Pune, Maharashtra, India\n\n' +
-          '– Built a centralized analytics platform integrating\n' +
+          '– Delivered a centralized analytics platform integrating\n' +
           '  Terra API data to enable real-time monitoring for\n' +
-          '  5k+ users.\n' +
-          '– Implemented FastAPI pipelines to process 40+ days of\n' +
-          '  historical and streaming data with 200ms latency.\n' +
+          '  5k+ users\n' +
+          '– Built high-performance FastAPI pipelines that process\n' +
+          '  40+ days of historical and streaming data at 200ms latency\n' +
           '– Modernized data access using PostgreSQL JSONB schemas\n' +
           '  and LLM-powered queries, reducing analysis effort\n' +
-          '  by 50%.\n' +
+          '  by 50%\n' +
           '– Tech Stack: Python, FastAPI, SQLAlchemy, PostgreSQL,\n' +
           '  Alembic, Postman, Git, GitHub\n\n' +
           '────────────────────────────────────────\n\n' +
           'Backend Developer\n' +
           '<a href="https://www.linkedin.com/company/ak-capital-advisors/" target="_blank" rel="noopener">AK Capital Advisors</a>\n' +
-          'October 2025 - November 2025 · 2 mos\n' +
+          'June 2025 - August 2025 · 3 mos\n' +
           'Remote - Pune, Maharashtra, India\n\n' +
-          '– Developed secure backend systems to streamline digital\n' +
-          '  credit card applications, supporting 1k+ monthly\n' +
-          '  submissions.\n' +
-          '– Architected 30+ APIs using JWT authentication and rate\n' +
-          '  limiting, reducing invalid requests by 40%.\n' +
-          '– Designed microservice architecture with PostgreSQL and\n' +
-          '  Alembic migrations, improving deployment stability\n' +
-          '  by 35%.\n' +
+          '– Developed secure backend systems that streamline digital\n' +
+          '  credit card applications supporting 1k+ monthly\n' +
+          '  submissions\n' +
+          '– Architected 30+ production-grade APIs with JWT\n' +
+          '  authentication and rate limiting, reducing invalid\n' +
+          '  requests by 40%\n' +
+          '– Designed a robust microservices architecture with\n' +
+          '  PostgreSQL and Alembic migrations that improved\n' +
+          '  deployment stability by 35%\n' +
           '– Tech Stack: Python, FastAPI, SQLAlchemy, PostgreSQL,\n' +
           '  Alembic, Supabase, Postman, Git, GitHub\n' +
           '</pre>'
@@ -266,34 +260,30 @@
           '<a href="https://github.com/kvdhanush06/EduToolsHub" target="_blank" rel="noopener">EduToolsHub</a>\n' +
           'Workflow Automation Platform\n\n' +
           '– Automated academic workflow management through task\n' +
-          '  scheduling services, improving student productivity.\n' +
+          '  scheduling services to improve student productivity\n' +
           '– Integrated external content APIs to aggregate learning\n' +
-          '  resources, reducing manual research time by 40%.\n' +
+          '  resources, reducing manual research time by 40%\n' +
           '– Tech Stack: Python, Django, REST APIs, Requests,\n' +
           '  YouTube API, Wikipedia API\n\n' +
           '────────────────────────────────────────\n\n' +
           '<a href="https://github.com/kvdhanush06/SociaSphere" target="_blank" rel="noopener">SociaSphere</a>\n' +
           'Social Media Platform Backend\n\n' +
           '– Engineered scalable authentication and media services\n' +
-          '  to support concurrent user activity on the platform.\n' +
+          '  to support concurrent user activity on the platform\n' +
           '– Optimized feed generation using indexed queries and\n' +
           '  caching strategies, cutting average response time\n' +
-          '  by 30%.\n' +
+          '  by 30%\n' +
           '– Tech Stack: Python, Django, Pillow, REST APIs\n\n' +
           '────────────────────────────────────────\n\n' +
           '<a href="https://github.com/kvdhanush06/united" target="_blank" rel="noopener">United</a>\n' +
           'Real-Time Tournament Platform\n\n' +
           '– Built a real-time tournament management system with\n' +
           '  secure authentication and live leaderboard\n' +
-          '  synchronization.\n' +
-          '– Developed a React SPA with lazy-loaded routes,\n' +
-          '  reducing initial load time by 40%.\n' +
-          '– Designed scalable frontend architecture for multi-user\n' +
-          '  competition workflows.\n' +
-          '– Tech Stack: React, Firebase Authentication, Firestore,\n' +
-          '  Google OAuth, Serverless Backend, Auth State Management,\n' +
-          '  Environment Configuration, Client-Side Validation,\n' +
-          '  Firebase Analytics\n' +
+          '  synchronization\n' +
+          '– Developed a React single-page application with\n' +
+          '  lazy-loaded routes and scalable competition workflows,\n' +
+          '  reducing initial load time by 40%\n' +
+          '– Tech Stack: React, JavaScript, REST APIs\n' +
           '</pre>'
         );
         break;
@@ -306,34 +296,21 @@
           'Languages\n' +
           '  Python, JavaScript, Java, C, C++, SQL\n\n' +
           'Backend & Systems\n' +
-          '  FastAPI, Django, Flask, Node.js, React,\n' +
-          '  REST APIs, JSON Web Token (JWT), Google OAuth,\n' +
-          '  Microservices, Serverless Backend,\n' +
-          '  Auth State Management, Client-Side Validation,\n' +
-          '  Caching\n\n' +
+          '  FastAPI, Django, Flask, Node.js, REST APIs,\n' +
+          '  JSON Web Token (JWT), Microservices, Caching\n\n' +
           'Databases & Cloud\n' +
-          '  PostgreSQL, Supabase, Firebase,\n' +
-          '  Firebase Authentication, Firestore,\n' +
-          '  Firebase Analytics,\n' +
-          '  Amazon Web Services (AWS),\n' +
-          '  Oracle Cloud Infrastructure (OCI),\n' +
-          '  Render, Query Optimization\n\n' +
+          '  PostgreSQL, Supabase, Amazon Web Services (AWS),\n' +
+          '  Oracle Cloud Infrastructure (OCI), Render,\n' +
+          '  Query Optimization, Firebase\n\n' +
           'Data & Machine Learning\n' +
           '  PyTorch, TensorFlow, OpenCV, Scikit-Learn,\n' +
-          '  Pandas, NumPy, Matplotlib, MediaPipe,\n' +
-          '  Pillow, SQLAlchemy\n\n' +
+          '  Pandas, NumPy, Matplotlib, MediaPipe, Pillow\n\n' +
           'Generative AI\n' +
-          '  Generative AI,\n' +
-          '  Generative Adversarial Networks (GANs),\n' +
-          '  Large Language Models (LLM),\n' +
-          '  Transformer Models, LangChain,\n' +
-          '  Retrieval Augmented Generation (RAG),\n' +
-          '  Prompt Engineering, Fine Tuning,\n' +
+          '  Generative AI, LangChain, Retrieval Augmented\n' +
+          '  Generation (RAG), Prompt Engineering, Fine Tuning,\n' +
           '  AI Agents, Vector Databases\n\n' +
           'Tools\n' +
-          '  Git, GitHub, Alembic, Postman, Jupyter,\n' +
-          '  Requests, YouTube API, Wikipedia API,\n' +
-          '  Environment Configuration\n' +
+          '  SQLAlchemy, Alembic, Git, GitHub, Postman, Jupyter\n' +
           '</pre>'
         );
         break;
@@ -365,12 +342,10 @@
           'Onsite - Amaravati, Andhra Pradesh, India\n\n' +
           '– Coordinated a 12-member technical team and structured\n' +
           '  project delivery pipelines to improve execution\n' +
-          '  efficiency.\n' +
+          '  efficiency\n' +
           '– Directed development of GAN-based image synthesis\n' +
           '  systems, enabling automated sketch-to-image\n' +
-          '  generation.\n' +
-          '– Established model monitoring and evaluation workflows,\n' +
-          '  reducing training failures by 25%.\n' +
+          '  generation\n' +
           '– Tech Stack: Python, TensorFlow, OpenCV, Git\n\n' +
           '────────────────────────────────────────\n\n' +
           'Member of Deep Learning Team\n' +
@@ -378,12 +353,10 @@
           'September 2024 – August 2025 · 1 yr\n' +
           'Onsite - Amaravati, Andhra Pradesh, India\n\n' +
           '– Engineered a real-time computer vision pipeline using\n' +
-          '  OpenCV and PyTorch, achieving 90%+ accuracy at 30 FPS.\n' +
-          '– Documented Transformer and self-attention architectures\n' +
-          '  to standardize team onboarding and knowledge sharing.\n' +
+          '  OpenCV and PyTorch, achieving 90%+ accuracy at 30 FPS\n' +
           '– Improved model convergence by tuning non-convex\n' +
           '  optimization and gradient descent methods for stable\n' +
-          '  training.\n' +
+          '  training\n' +
           '– Tech Stack: Python, PyTorch, OpenCV, MediaPipe,\n' +
           '  NumPy, Git\n\n' +
           '────────────────────────────────────────\n\n' +
@@ -393,12 +366,10 @@
           'Onsite - Amaravati, Andhra Pradesh, India\n\n' +
           '– Built automated data preprocessing and feature\n' +
           '  engineering pipelines, improving dataset consistency\n' +
-          '  by 20%.\n' +
+          '  by 20%\n' +
           '– Optimized and benchmarked Scikit-Learn models to\n' +
           '  enable reliable performance comparison across\n' +
-          '  experiments.\n' +
-          '– Documented BERT-based NLP architectures to standardize\n' +
-          '  model development and experimentation workflows.\n' +
+          '  experiments\n' +
           '– Tech Stack: Python, Scikit-Learn, Pandas, Matplotlib,\n' +
           '  Jupyter, Git\n' +
           '</pre>'
@@ -410,17 +381,15 @@
           '<pre>' +
           'Honors & Awards\n' +
           '───────────────\n\n' +
-          'Smart India Hackathon 2023 —\n' +
+          'Smart India Hackathon 2023 –\n' +
           'National Round Qualifier (Team Leader)\n' +
-          'Issued by VIT-AP · September 2023\n\n' +
-          '– Led a 5-member team to develop a time-series-based\n' +
-          '  weather forecasting system with 7-day prediction\n' +
-          '  horizon.\n' +
+          'Issued by VIT-AP · Sep 2023\n\n' +
+          '– Led a 5-member team to develop a time-series weather\n' +
+          '  forecasting system with a 7-day prediction horizon\n' +
           '– Built an end-to-end pipeline processing 10k+\n' +
-          '  historical records from data ingestion to web\n' +
-          '  deployment.\n' +
-          '– Improved model accuracy by ~20% through feature\n' +
-          '  engineering and hyperparameter tuning.\n' +
+          '  historical records from ingestion to web deployment,\n' +
+          '  improving model accuracy by ~20% through feature\n' +
+          '  engineering and hyperparameter tuning\n' +
           '</pre>'
         );
         break;
