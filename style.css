@@ -760,6 +760,10 @@ strong {
   border: 1px solid #1a1a1a;
   border-radius: 10px;
   padding: 24px;
+  margin-bottom: 24px;
+}
+.award-item:last-child {
+  margin-bottom: 0;
 }
 
 .award-issuer {
