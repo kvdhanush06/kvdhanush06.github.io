@@ -141,7 +141,7 @@
   }
 
   var commands = [
-    'help', 'welcome', 'about', 'experience', 'projects', 'skills',
+    'help', 'welcome', 'about', 'experience', 'projects', 'contributions', 'skills',
     'certifications', 'por', 'awards', 'contact', 'socials',
     'education', 'resume', 'clear'
   ];
@@ -184,6 +184,7 @@
           '  about            About me\n' +
           '  experience       Work experience\n' +
           '  projects         Featured projects\n' +
+          '  contributions    Open source contributions\n' +
           '  skills           Technical skills\n' +
           '  certifications   Certifications\n' +
           '  por              Positions of responsibility\n' +
@@ -247,6 +248,25 @@
           '– Built automated task scheduling and external API aggregation that reduced manual research time by 40% for users\n' +
           '– Implemented production-ready REST endpoints with proper error handling, logging, and documentation\n' +
           '– Tech Stack: Python, Django, REST APIs, Requests\n' +
+          '</pre>'
+        );
+        break;
+
+      case 'contributions':
+      case 'os':
+        addResponse(
+          '<pre>' +
+          'Open Source Contributions\n' +
+          '─────────────────────────\n\n' +
+          '<a href="https://github.com/PrefectHQ/fastmcp" target="_blank" rel="noopener">FastMCP</a> @ <a href="https://www.linkedin.com/company/prefect/" target="_blank" rel="noopener">Prefect</a>                              Feb 2026 – Present\n' +
+          'Leading Python framework for the Model Context Protocol (MCP)\n\n' +
+          '– Delivered FastAPI TestClient lifespan compatibility fix, eliminating RuntimeError\n' +
+          '  in multiple test runs and improving developer testing reliability\n' +
+          '  <a href="https://github.com/PrefectHQ/fastmcp/pull/3736" target="_blank" rel="noopener">[PR #3736]</a>\n\n' +
+          '– Engineered upstream_claims propagation in load_access_token, ensuring custom\n' +
+          '  signed JWT claims survive token swaps and strengthening authentication consistency\n' +
+          '  <a href="https://github.com/PrefectHQ/fastmcp/pull/3750" target="_blank" rel="noopener">[PR #3750]</a>\n\n' +
+          '– Tech Stack: FastAPI, Pydantic, OAuth2/JWT, ASGI lifespans\n' +
           '</pre>'
         );
         break;
