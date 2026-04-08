@@ -266,6 +266,9 @@
           '– Engineered upstream_claims propagation in load_access_token, ensuring custom\n' +
           '  signed JWT claims survive token swaps and strengthening authentication consistency\n' +
           '  <a href="https://github.com/PrefectHQ/fastmcp/pull/3750" target="_blank" rel="noopener">[PR #3750]</a>\n\n' +
+          '– Fixed OpenAPI 3.0 nullable fields in tool input schemas, converting nullable: true\n' +
+          '  to proper JSON Schema unions and ensuring full compatibility with downstream MCP clients\n' +
+          '  <a href="https://github.com/PrefectHQ/fastmcp/pull/3768" target="_blank" rel="noopener">[PR #3768]</a>\n\n' +
           '– Tech Stack: FastAPI, Pydantic, OAuth2/JWT, ASGI lifespans\n' +
           '</pre>'
         );

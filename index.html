@@ -256,6 +256,7 @@
             <ul class="timeline-details">
               <li>Delivered FastAPI TestClient lifespan compatibility fix, eliminating RuntimeError in multiple test runs and improving developer testing reliability for the framework. <a href="https://github.com/PrefectHQ/fastmcp/pull/3736" target="_blank" rel="noopener" style="text-decoration: underline; opacity: 0.7;">[PR #3736]</a></li>
               <li>Engineered upstream_claims propagation in load_access_token, ensuring custom signed JWT claims survive token swaps and strengthening authentication consistency across MCP servers. <a href="https://github.com/PrefectHQ/fastmcp/pull/3750" target="_blank" rel="noopener" style="text-decoration: underline; opacity: 0.7;">[PR #3750]</a></li>
+              <li>Fixed OpenAPI 3.0 nullable fields in tool input schemas, converting nullable: true to proper JSON Schema unions and ensuring full compatibility with downstream MCP clients. <a href="https://github.com/PrefectHQ/fastmcp/pull/3768" target="_blank" rel="noopener" style="text-decoration: underline; opacity: 0.7;">[PR #3768]</a></li>
             </ul>
             <div class="tech-tags">
               <span>FastAPI</span><span>Pydantic</span><span>OAuth2/JWT</span><span>ASGI lifespans</span>
