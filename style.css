@@ -573,9 +573,17 @@ strong {
   opacity: 0.4;
 }
 
+.project-links {
+  display: flex;
+  gap: 12px;
+  align-items: center;
+}
+
 .project-link {
   opacity: 0.4;
   transition: opacity 0.2s;
+  display: flex;
+  align-items: center;
 }
 .project-link:hover {
   opacity: 1;
