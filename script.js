@@ -230,7 +230,7 @@
           '– Optimized feed queries and introduced caching strategies to reduce response time under concurrent usage.\n\n' +
           'Tech Stack: Django, PostgreSQL, REST APIs\n\n\n' +
           'EduToolsHub — Workflow Automation Platform\n' +
-          'Links: <a href="https://github.com/kvdhanush06/EduToolsHub" target="_blank" rel="noopener">GitHub</a> | <a href="https://youtu.be/Fe0io0Mu53A" target="_blank" rel="noopener">Video Demo</a> | <a href="https://edutoolshub.allkvd.me/" target="_blank" rel="noopener">Demo Site</a>\n\n' +
+          'Links: <a href="https://github.com/kvdhanush06/EduToolsHub" target="_blank" rel="noopener">GitHub</a> | <a href="https://youtu.be/Fe0io0Mu53A" target="_blank" rel="noopener">Video Demo</a> | <a href="https://edutoolshub.onrender.com/" target="_blank" rel="noopener">Demo Site</a>\n\n' +
           '– Designed workflow automation system integrating multiple external APIs with validation and error handling.\n' +
           '– Developed REST endpoints with structured logging, input validation, and failure handling mechanisms.\n\n' +
           'Tech Stack: Django, REST APIs, Requests\n\n\n' +
