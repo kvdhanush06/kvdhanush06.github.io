@@ -204,14 +204,12 @@
           '<pre>' +
           'Software Engineer Intern — <a href="https://www.linkedin.com/company/study-cubs/" target="_blank" rel="noopener">StudyCubs</a>\n' +
           'Dec 2025 – Jan 2026 · 1 mo\n' +
-          '[Context]: Studycubs is an analytics and workflow orchestration platform managing user tracking telemetry.\n' +
           '- Designed a centralized analytics platform with Terra API for real-time and batch processing of 5K+ users.\n' +
           '- Built async FastAPI pipelines processing 40+ days of historical and streaming data, improving latency.\n' +
           '- Optimized PostgreSQL JSONB queries using indexing and query restructuring, improving query performance.\n\n' +
           'Tech Stack: FastAPI, PostgreSQL, SQLAlchemy, Alembic\n\n\n' +
           'Software Engineer Intern — <a href="https://www.linkedin.com/company/ak-capital-advisors/" target="_blank" rel="noopener">AK Capital Advisors</a>\n' +
           'Jun 2025 – Aug 2025 · 2 mos\n' +
-          '[Context]: AK Capital Advisors manages specialized institutional financial workflows and transactional pipelines.\n' +
           '- Designed and deployed 30+ REST APIs with JWT authentication and rate limiting for credit workflows.\n' +
           '- Implemented Alembic-based schema versioning and migrations to ensure database consistency.\n' +
           '- Performed backend debugging and API validation using Postman during production deployment cycles.\n\n' +
@@ -282,9 +280,6 @@
           '<pre>' +
           'Oracle Cloud Infrastructure 2025 Certified Generative AI Professional\n' +
           'NVIDIA – Building LLM Applications With Prompt Engineering\n' +
-          'AWS Academy - Cloud Architecting (Credential ID: b724e737-3f2b-435c-91c4-6a409e92f011)\n' +
-          'AWS Academy - Cloud Foundations (Credential ID: 75478341-e3ac-40b8-85f3-cf9ba7886351)\n' +
-          'Boston IT Solutions India – Python for AI' +
           '</pre>'
         );
         break;
@@ -295,7 +290,6 @@
           'Co-Lead, Deep Learning & Computer Vision Team\n' +
           'Club: <a href="https://www.linkedin.com/company/machinelearningclubvitap/" target="_blank" rel="noopener">The Machine Learning Club VIT-AP</a>\n' +
           'Timeline: August 2025 – Present · 10 mos\n' +
-          '[Context]: University technology club managing engineering research, deep learning infrastructure deployments, and model optimization tracks.\n' +
           '- Led a 12-member team building computer vision and deep learning systems.\n' +
           '- Developed GAN-based sketch-to-image system and real-time CV pipelines with optimized training workflows.\n' +
           '- Mentored team members on debugging, model optimization, and implementation practices.\n\n\n' +
@@ -338,8 +332,6 @@
           'Bachelor of Technology, Computer Science & Engineering\n' +
           'Timeline: September 2023 – June 2027\n' +
           'Grade: CGPA 8.45 / 10\n' +
-          'Activities: The Machine Learning Club VIT-AP\n' +
-          'Core Coursework: Design & Analysis of Algorithms, Operating Systems, Database Management Systems, Distributed Networks, and Asynchronous Backend Development.' +
           '</pre>'
         );
         break;
