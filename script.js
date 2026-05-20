@@ -9,8 +9,7 @@
   // ─── TYPING ANIMATION ───────────────────────────
   const roles = [
     'Backend Engineer',
-    'Software Engineer',
-    'API Architect',
+    'Software Engineer'
   ];
 
   const typedEl = document.getElementById('typedRole');
@@ -194,10 +193,8 @@
       case 'about':
         addResponse(
           '<pre>' +
-          'Backend developer with experience designing and building scalable systems using FastAPI and Django.\n\n' +
-          'Worked on real-time and batch processing pipelines for 5K+ users, focusing on performance optimization,\n' +
-          'database efficiency, and reliable API design.\n\n' +
-          'Experience in backend systems, data processing, and production-grade API development.' +
+          'I approach software engineering with a systems mindset—decomposing high-concurrency barriers into modular, asynchronous backend architectures. My technical focus centers on eliminating connection bottlenecks, optimizing complex queries, and designing low-latency, resilient data processing pipelines.\n\n' +
+          'Beyond building standalone application layers, I evaluate engineering toolchains from the inside out. I am an active upstream open-source contributor to Prefect’s core Python framework (FastMCP ecosystem), fixing asynchronous runtime lifespan vulnerabilities and OpenAPI schema compliance behaviors for developers globally.' +
           '</pre>'
         );
         break;
@@ -206,16 +203,18 @@
         addResponse(
           '<pre>' +
           'Software Engineer Intern — <a href="https://www.linkedin.com/company/study-cubs/" target="_blank" rel="noopener">StudyCubs</a>\n' +
-          'Dec 2025 – Jan 2026\n\n' +
-          '– Designed a centralized analytics platform with Terra API for real-time and batch processing of 5K+ users.\n' +
-          '– Built async FastAPI pipelines processing 40+ days of historical and streaming data, improving latency.\n' +
-          '– Optimized PostgreSQL JSONB queries using indexing and query restructuring, improving query performance.\n\n' +
+          'Dec 2025 – Jan 2026 · 1 mo\n' +
+          '[Context]: Studycubs is an analytics and workflow orchestration platform managing user tracking telemetry.\n' +
+          '- Designed a centralized analytics platform with Terra API for real-time and batch processing of 5K+ users.\n' +
+          '- Built async FastAPI pipelines processing 40+ days of historical and streaming data, improving latency.\n' +
+          '- Optimized PostgreSQL JSONB queries using indexing and query restructuring, improving query performance.\n\n' +
           'Tech Stack: FastAPI, PostgreSQL, SQLAlchemy, Alembic\n\n\n' +
           'Software Engineer Intern — <a href="https://www.linkedin.com/company/ak-capital-advisors/" target="_blank" rel="noopener">AK Capital Advisors</a>\n' +
-          'Jun 2025 – Aug 2025\n\n' +
-          '– Designed and deployed 30+ REST APIs with JWT authentication and rate limiting for credit workflows.\n' +
-          '– Implemented Alembic-based schema versioning and migrations to ensure database consistency.\n' +
-          '– Performed backend debugging and API validation using Postman during production deployment cycles.\n\n' +
+          'Jun 2025 – Aug 2025 · 2 mos\n' +
+          '[Context]: AK Capital Advisors manages specialized institutional financial workflows and transactional pipelines.\n' +
+          '- Designed and deployed 30+ REST APIs with JWT authentication and rate limiting for credit workflows.\n' +
+          '- Implemented Alembic-based schema versioning and migrations to ensure database consistency.\n' +
+          '- Performed backend debugging and API validation using Postman during production deployment cycles.\n\n' +
           'Tech Stack: FastAPI, PostgreSQL, Supabase, Alembic' +
           '</pre>'
         );
@@ -224,21 +223,24 @@
       case 'projects':
         addResponse(
           '<pre>' +
-          'SociaSphere — Social Media Backend\n' +
-          'Links: <a href="https://github.com/kvdhanush06/SociaSphere" target="_blank" rel="noopener">GitHub</a> | <a href="https://youtu.be/pIHj1mT5XzU" target="_blank" rel="noopener">Video Demo</a>\n\n' +
-          '– Implemented JWT-based authentication and rate limiting for secure and controlled user access.\n' +
-          '– Optimized feed queries and introduced caching strategies to reduce response time under concurrent usage.\n\n' +
-          'Tech Stack: Django, PostgreSQL, REST APIs\n\n\n' +
-          'EduToolsHub — Workflow Automation Platform\n' +
-          'Links: <a href="https://github.com/kvdhanush06/EduToolsHub" target="_blank" rel="noopener">GitHub</a> | <a href="https://youtu.be/Fe0io0Mu53A" target="_blank" rel="noopener">Video Demo</a> | <a href="https://edutoolshub.onrender.com/" target="_blank" rel="noopener">Demo Site</a>\n\n' +
-          '– Designed workflow automation system integrating multiple external APIs with validation and error handling.\n' +
-          '– Developed REST endpoints with structured logging, input validation, and failure handling mechanisms.\n\n' +
-          'Tech Stack: Django, REST APIs, Requests\n\n\n' +
           'United — Real-Time Tournament Platform\n' +
-          'Links: <a href="https://github.com/kvdhanush06/united" target="_blank" rel="noopener">GitHub</a>\n\n' +
-          '– Designed and implemented a real-time tournament management system with secure authentication and live data synchronization.\n' +
-          '– Developed REST APIs to support tournament workflows and leaderboard updates.\n\n' +
-          'Tech Stack: React, JavaScript, REST APIs' +
+          'Links: <a href="https://github.com/kvdhanush06/united" target="_blank" rel="noopener">GitHub</a>\n' +
+          '[Real-Time Tournament Platform]: Architecture developed for live tournament management and data synchronization layers.\n' +
+          '- Designed and implemented a real-time tournament management system with secure authentication and live data synchronization.\n' +
+          '- Developed REST APIs to support tournament workflows and leaderboard updates.\n\n' +
+          'Tech Stack: React, JavaScript, REST APIs\n\n\n' +
+          'SociaSphere — Social Media Backend\n' +
+          'Links: <a href="https://github.com/kvdhanush06/SociaSphere" target="_blank" rel="noopener">GitHub</a> | <a href="https://youtu.be/pIHj1mT5XzU" target="_blank" rel="noopener">Video Demo</a>\n' +
+          '[Social Media Backend Engine]: Backend services engineered to reduce connection constraints and handle data queries under concurrent load.\n' +
+          '- Implemented JWT-based authentication and rate limiting for secure and controlled user access.\n' +
+          '- Optimized feed queries and introduced caching strategies to reduce response time under concurrent usage.\n\n' +
+          'Tech Stack: Django, PostgreSQL, REST APIs, Pillow\n\n\n' +
+          'EduToolsHub — Workflow Automation Platform\n' +
+          'Links: <a href="https://github.com/kvdhanush06/EduToolsHub" target="_blank" rel="noopener">GitHub</a> | <a href="https://youtu.be/Fe0io0Mu53A" target="_blank" rel="noopener">Video Demo</a> | <a href="https://edutoolshub.onrender.com/" target="_blank" rel="noopener">Demo Site</a>\n' +
+          '[Workflow Automation Platform]: Asynchronous automation gate built to interface with external application systems safely.\n' +
+          '- Designed workflow automation system integrating multiple external APIs with validation and error handling.\n' +
+          '- Developed REST endpoints with structured logging, input validation, and failure handling mechanisms.\n\n' +
+          'Tech Stack: Django, REST APIs, Requests' +
           '</pre>'
         );
         break;
@@ -247,10 +249,11 @@
       case 'os':
         addResponse(
           '<pre>' +
-          '<a href="https://github.com/PrefectHQ/fastmcp" target="_blank" rel="noopener">Prefect — FastMCP</a> @ <a href="https://www.linkedin.com/company/prefect/" target="_blank" rel="noopener">LinkedIn</a>\n\n' +
-          '– Resolved FastAPI TestClient lifespan compatibility issue affecting async test environments. <a href="https://github.com/PrefectHQ/fastmcp/pull/3736" target="_blank" rel="noopener">[PR #3736]</a>\n' +
-          '– Implemented upstream_claims propagation for consistent JWT custom claim handling across services. <a href="https://github.com/PrefectHQ/fastmcp/pull/3750" target="_blank" rel="noopener">[PR #3750]</a>\n' +
-          '– Fixed OpenAPI nullable schema generation bug, improving API client compatibility. <a href="https://github.com/PrefectHQ/fastmcp/pull/3768" target="_blank" rel="noopener">[PR #3768]</a>\n\n' +
+          '<a href="https://github.com/PrefectHQ/fastmcp" target="_blank" rel="noopener">Prefect — FastMCP</a>\n' +
+          '[Open Source Framework Contribution]: Contributions to the primary Python framework implementing the Model Context Protocol (MCP) specification.\n' +
+          '- Resolved FastAPI TestClient lifespan compatibility issue affecting async test environments. <a href="https://github.com/PrefectHQ/fastmcp/pull/3736" target="_blank" rel="noopener">[PR #3736]</a>\n' +
+          '- Implemented upstream_claims propagation for consistent JWT custom claim handling across services. <a href="https://github.com/PrefectHQ/fastmcp/pull/3750" target="_blank" rel="noopener">[PR #3750]</a>\n' +
+          '- Fixed OpenAPI nullable schema generation bug, improving API client compatibility. <a href="https://github.com/PrefectHQ/fastmcp/pull/3768" target="_blank" rel="noopener">[PR #3768]</a>\n\n' +
           'Tech Stack: FastAPI, Pydantic, OAuth2/JWT' +
           '</pre>'
         );
@@ -262,11 +265,11 @@
           'Languages:\n' +
           'Python, SQL, JavaScript, Java, C, C++\n\n' +
           'Backend & Systems:\n' +
-          'FastAPI, Django, Flask, REST APIs, SQLAlchemy, Alembic\n\n' +
+          'FastAPI, Django, Flask, REST APIs, SQLAlchemy, Alembic, Asynchronous Architecture, JWT Authentication, Database Indexing\n\n' +
           'Databases & Cloud:\n' +
-          'PostgreSQL, Supabase, AWS, OCI, Render\n\n' +
+          'PostgreSQL, Supabase, Amazon Web Services (AWS), Oracle Cloud Infrastructure (OCI), Render\n\n' +
           'Data & ML:\n' +
-          'PyTorch, OpenCV, Scikit-Learn, Pandas, NumPy\n\n' +
+          'PyTorch, TensorFlow, OpenCV, Scikit-Learn, Pandas, NumPy, MediaPipe\n\n' +
           'Tools:\n' +
           'Git, GitHub, Postman' +
           '</pre>'
@@ -277,8 +280,11 @@
       case 'certs':
         addResponse(
           '<pre>' +
-          'Oracle Cloud Infrastructure 2025 Certified Generative AI Professional — <a href="https://catalog-education.oracle.com/ords/certview/sharebadge?id=9A0A7CC8C8DBBE15A972B3642518E75372D91D22C1E469A9DCBB6D2E2750F162" target="_blank" rel="noopener">View Credential</a>\n\n' +
-          'NVIDIA – Building LLM Applications With Prompt Engineering — <a href="https://learn.nvidia.com/certificates?id=fZPQ-F1qQWOVo1SjcbS9wA" target="_blank" rel="noopener">View Credential</a>' +
+          'Oracle Cloud Infrastructure 2025 Certified Generative AI Professional\n' +
+          'NVIDIA – Building LLM Applications With Prompt Engineering\n' +
+          'AWS Academy - Cloud Architecting (Credential ID: b724e737-3f2b-435c-91c4-6a409e92f011)\n' +
+          'AWS Academy - Cloud Foundations (Credential ID: 75478341-e3ac-40b8-85f3-cf9ba7886351)\n' +
+          'Boston IT Solutions India – Python for AI' +
           '</pre>'
         );
         break;
@@ -287,18 +293,22 @@
         addResponse(
           '<pre>' +
           'Co-Lead, Deep Learning & Computer Vision Team\n' +
-          'Club: <a href="https://www.linkedin.com/company/machinelearningclubvitap/" target="_blank" rel="noopener">The Machine Learning Club VIT-AP</a>\n\n' +
-          '– Led a 12-member team building computer vision and deep learning systems.\n' +
-          '– Developed GAN-based sketch-to-image system and real-time CV pipelines with optimized training workflows.\n' +
-          '– Mentored team members on debugging, model optimization, and implementation practices.\n\n\n' +
+          'Club: <a href="https://www.linkedin.com/company/machinelearningclubvitap/" target="_blank" rel="noopener">The Machine Learning Club VIT-AP</a>\n' +
+          'Timeline: August 2025 – Present · 10 mos\n' +
+          '[Context]: University technology club managing engineering research, deep learning infrastructure deployments, and model optimization tracks.\n' +
+          '- Led a 12-member team building computer vision and deep learning systems.\n' +
+          '- Developed GAN-based sketch-to-image system and real-time CV pipelines with optimized training workflows.\n' +
+          '- Mentored team members on debugging, model optimization, and implementation practices.\n\n\n' +
           'Member, Deep Learning Team\n' +
-          'Club: <a href="https://www.linkedin.com/company/machinelearningclubvitap/" target="_blank" rel="noopener">The Machine Learning Club VIT-AP</a>\n\n' +
-          '– Built real-time computer vision pipeline using OpenCV and PyTorch with optimized inference workflows.\n' +
-          '– Improved model performance through tuning of training processes and optimization techniques.\n\n\n' +
+          'Club: <a href="https://www.linkedin.com/company/machinelearningclubvitap/" target="_blank" rel="noopener">The Machine Learning Club VIT-AP</a>\n' +
+          'Timeline: September 2024 – August 2025 · 1 yr\n' +
+          '- Built real-time computer vision pipeline using OpenCV and PyTorch with optimized inference workflows.\n' +
+          '- Improved model performance through tuning of training processes and optimization techniques.\n\n\n' +
           'Member, Research Team\n' +
-          'Club: <a href="https://www.linkedin.com/company/machinelearningclubvitap/" target="_blank" rel="noopener">The Machine Learning Club VIT-AP</a>\n\n' +
-          '– Developed data preprocessing and feature engineering pipelines to improve dataset consistency.\n' +
-          '– Performed model benchmarking and evaluation using Scikit-Learn for reliable performance comparison.' +
+          'Club: <a href="https://www.linkedin.com/company/machinelearningclubvitap/" target="_blank" rel="noopener">The Machine Learning Club VIT-AP</a>\n' +
+          'Timeline: October 2023 – September 2024 · 1 yr\n' +
+          '- Developed data preprocessing and feature engineering pipelines to improve dataset consistency.\n' +
+          '- Performed model benchmarking and evaluation using Scikit-Learn for reliable performance comparison.' +
           '</pre>'
         );
         break;
@@ -306,14 +316,17 @@
       case 'awards':
         addResponse(
           '<pre>' +
-          'GATE 2026 Qualified – Computer Science\n\n' +
-          '– Qualified Graduate Aptitude Test in Engineering (GATE) 2026 in Computer Science.\n\n\n' +
-          'Smart India Hackathon 2025 – National Round Qualifier\n\n' +
-          '– Selected as National Round Qualifier in Smart India Hackathon 2025.\n' +
-          '– Contributed to development of an AI-based agricultural platform delivering localized crop insights.\n\n\n' +
-          'Smart India Hackathon 2023 – National Round Qualifier\n\n' +
-          '– Selected as National Round Qualifier in Smart India Hackathon 2023.\n' +
-          '– Led a team to build a time-series weather forecasting system with a 7-day prediction horizon.' +
+          'GATE 2026 Qualified – Computer Science\n' +
+          'Issued by Indian Institute of Technology, Guwahati · March 2026\n' +
+          '- Qualified Graduate Aptitude Test in Engineering (GATE) 2026 in Computer Science and Information Technology.\n\n\n' +
+          'Smart India Hackathon 2025 – National Round Qualifier\n' +
+          'Issued by VIT-AP · September 2025\n' +
+          '- Selected as National Round Qualifier in Smart India Hackathon 2025.\n' +
+          '- Contributed to development of an AI-based agricultural platform delivering localized crop insights.\n\n\n' +
+          'Smart India Hackathon 2023 – National Round Qualifier (Team Leader)\n' +
+          'Issued by VIT-AP · September 2023\n' +
+          '- Selected as National Round Qualifier in Smart India Hackathon 2023.\n' +
+          '- Led a team to build a time-series weather forecasting system with a 7-day prediction horizon.' +
           '</pre>'
         );
         break;
@@ -321,9 +334,12 @@
       case 'education':
         addResponse(
           '<pre>' +
-          'Bachelor of Technology in Computer Science and Engineering (2023 – 2027)\n' +
           'VIT-AP University, Andhra Pradesh\n' +
-          'CGPA: 8.45 / 10' +
+          'Bachelor of Technology, Computer Science & Engineering\n' +
+          'Timeline: September 2023 – June 2027\n' +
+          'Grade: CGPA 8.45 / 10\n' +
+          'Activities: The Machine Learning Club VIT-AP\n' +
+          'Core Coursework: Design & Analysis of Algorithms, Operating Systems, Database Management Systems, Distributed Networks, and Asynchronous Backend Development.' +
           '</pre>'
         );
         break;
@@ -341,7 +357,7 @@
         addResponse(
           '<pre>' +
           'GitHub: <a href="https://github.com/kvdhanush06" target="_blank" rel="noopener">github.com/kvdhanush06</a>\n' +
-          'YouTube: <a href="https://youtube.com/@kvdhanush0608" target="_blank" rel="noopener">youtube.com/@kvdhanush0608</a>\n' +
+          'YouTube: <a href="https://youtube.com/@UC8luCTH9QTvyiZPP6y4kLdg" target="_blank" rel="noopener">youtube.com/kvdhanush06</a>\n' +
           'X: <a href="https://x.com/kvdhanush06" target="_blank" rel="noopener">x.com/kvdhanush06</a>' +
           '</pre>'
         );
