@@ -228,7 +228,7 @@
           '- Developed REST APIs to support tournament workflows and leaderboard updates.\n\n' +
           'Tech Stack: React, JavaScript, REST APIs\n\n\n' +
           'SociaSphere — Social Media Backend\n' +
-          'Links: <a href="https://github.com/kvdhanush06/SociaSphere" target="_blank" rel="noopener">GitHub</a> | <a href="https://youtu.be/pIHj1mT5XzU" target="_blank" rel="noopener">Video Demo</a>\n' +
+          'Links: <a href="https://github.com/kvdhanush06/SociaSphere" target="_blank" rel="noopener">GitHub</a> | <a href="https://youtu.be/pIHj1mT5XzU" target="_blank" rel="noopener">Video Demo</a> | <a href="https://sociasphere.onrender.com/" target="_blank" rel="noopener">Demo Site</a>\n' +
           '[Social Media Backend Engine]: Backend services engineered to reduce connection constraints and handle data queries under concurrent load.\n' +
           '- Implemented JWT-based authentication and rate limiting for secure and controlled user access.\n' +
           '- Optimized feed queries and introduced caching strategies to reduce response time under concurrent usage.\n\n' +
