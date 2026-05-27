@@ -349,7 +349,7 @@
         addResponse(
           '<pre>' +
           'GitHub: <a href="https://github.com/kvdhanush06" target="_blank" rel="noopener">github.com/kvdhanush06</a>\n' +
-          'YouTube: <a href="https://youtube.com/@UC8luCTH9QTvyiZPP6y4kLdg" target="_blank" rel="noopener">youtube.com/kvdhanush06</a>\n' +
+          'YouTube: <a href="https://www.youtube.com/@kvdhanush0608" target="_blank" rel="noopener">youtube.com/kvdhanush06</a>\n' +
           'X: <a href="https://x.com/kvdhanush06" target="_blank" rel="noopener">x.com/kvdhanush06</a>' +
           '</pre>'
         );
