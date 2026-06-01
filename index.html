@@ -51,10 +51,10 @@
       <div class="hero-right">
         <h2 class="about-heading">About Me</h2>
         <p>
-          I approach software engineering with a systems mindset—decomposing high-concurrency barriers into modular, asynchronous backend architectures. My technical focus centers on eliminating connection bottlenecks, optimizing complex queries, and designing low-latency, resilient data processing pipelines.
+          I approach software engineering with a systems mindset—decomposing high-concurrency barriers into modular, asynchronous backend architectures. My technical focus centers on eliminating connection bottlenecks, converting linear system bottlenecks into constant-time executions, and designing low-latency, resilient data processing pipelines.
         </p>
         <p>
-          Beyond building standalone application layers, I evaluate engineering toolchains from the inside out. I am an active upstream open-source contributor to Prefect’s core Python framework (FastMCP ecosystem), fixing asynchronous runtime lifespan vulnerabilities and OpenAPI schema compliance behaviors for developers globally.
+          Beyond building standalone application layers, I evaluate engineering toolchains from the inside out. I am an active upstream open-source contributor to Prefect’s core Python framework (FastMCP ecosystem), fixing asynchronous runtime lifespan vulnerabilities and OpenAPI schema compliance behaviors to improve framework reliability for developers globally.
         </p>
       </div>
     </div>
@@ -102,19 +102,19 @@ Type 'help' to see available commands.</pre>
           <div class="timeline-content">
             <div class="timeline-row-top">
               <h3>Software Engineer Intern</h3>
-              <span class="timeline-date">December 2025 - January 2026 · 1 mo</span>
+              <span class="timeline-date">December 2025 - January 2026</span>
             </div>
             <div class="timeline-row-bottom">
               <span class="timeline-company"><a href="https://www.linkedin.com/company/study-cubs/" target="_blank" rel="noopener">StudyCubs</a></span>
               <span class="timeline-location">Remote - Pune, Maharashtra, India</span>
             </div>
             <ul class="timeline-details">
-              <li>Designed a centralized analytics platform with Terra API for real-time and batch processing of 5K+ users.</li>
-              <li>Built async FastAPI pipelines processing 40+ days of historical and streaming data, improving latency.</li>
-              <li>Optimized PostgreSQL JSONB queries using indexing and query restructuring, improving query performance.</li>
+              <li>Architected a data platform for <strong>5K+ users</strong>, offloading real-time webhooks and <strong>180-day</strong> batch syncs via a message broker across <strong>6 parallel data streams</strong>.</li>
+              <li>Reduced database lookup complexity from O(N) table scans to O(log N) index seeks using a composite B-tree index on user and date fields for atomic upserts.</li>
+              <li>Hardened throughput via <strong>500-item chunked</strong> bulk upserts and nested transactions to isolate data failures and prevent complete batch rollbacks.</li>
             </ul>
             <div class="tech-tags">
-              <span>FastAPI</span><span>PostgreSQL</span><span>SQLAlchemy</span><span>Alembic</span><span>AsyncIO</span><span>Database Indexing</span><span>Postman</span><span>Git</span><span>GitHub</span>
+              <span>FastAPI</span><span>PostgreSQL</span><span>RabbitMQ</span><span>SQLAlchemy</span><span>Alembic</span><span>AsyncIO</span><span>Database Indexing</span><span>Git</span><span>GitHub</span>
             </div>
           </div>
         </div>
@@ -124,19 +124,19 @@ Type 'help' to see available commands.</pre>
           <div class="timeline-content">
             <div class="timeline-row-top">
               <h3>Software Engineer Intern</h3>
-              <span class="timeline-date">June 2025 - August 2025 · 2 mos</span>
+              <span class="timeline-date">June 2025 - August 2025</span>
             </div>
             <div class="timeline-row-bottom">
               <span class="timeline-company"><a href="https://www.linkedin.com/company/ak-capital-advisors/" target="_blank" rel="noopener">AK Capital Advisors</a></span>
               <span class="timeline-location">Remote - Pune, Maharashtra, India</span>
             </div>
             <ul class="timeline-details">
-              <li>Designed and deployed 30+ REST APIs with JWT authentication and rate limiting for credit workflows.</li>
-              <li>Implemented Alembic-based schema versioning and migrations to ensure database consistency.</li>
-              <li>Performed backend debugging and API validation using Postman during production deployment cycles.</li>
+              <li>Designed <strong>30+ credit and loan workflow REST APIs</strong>, implementing strict financial domain validation using structured data schemas and token-based authentication dependencies.</li>
+              <li>Managed <strong>15 relational tables</strong> and <strong>2 database views</strong> across <strong>9 schema migrations</strong>, enforcing data integrity via explicit foreign keys and unique constraints.</li>
+              <li>Standardized API error semantics by deploying a centralized error catalog, utilizing explicit transactional rollbacks to preserve database state during failures.</li>
             </ul>
             <div class="tech-tags">
-              <span>FastAPI</span><span>PostgreSQL</span><span>Supabase</span><span>Alembic</span><span>JWT Authentication</span><span>Postman</span><span>Git</span><span>GitHub</span>
+              <span>FastAPI</span><span>PostgreSQL</span><span>SQLAlchemy</span><span>Alembic</span><span>Supabase</span><span>Structured Schemas</span><span>JWT Authentication</span><span>Git</span><span>GitHub</span>
             </div>
           </div>
         </div>
@@ -158,16 +158,16 @@ Type 'help' to see available commands.</pre>
             </div>
             <div class="timeline-row-bottom">
               <span class="timeline-company"><a href="https://www.linkedin.com/company/prefect/" target="_blank" rel="noopener">Prefect</a></span>
-              <span class="timeline-location">Open Source</span>
+              <span class="timeline-location">Open Source Framework</span>
             </div>
             <p class="project-type" style="margin-bottom: 12px; margin-top: 4px;">[Open Source Framework Contribution]: Contributions to the primary Python framework implementing the Model Context Protocol (MCP) specification.</p>
             <ul class="timeline-details">
-              <li>Resolved FastAPI TestClient lifespan compatibility issue affecting async test environments. <a href="https://github.com/PrefectHQ/fastmcp/pull/3736" target="_blank" rel="noopener" style="text-decoration: underline; opacity: 0.7;">[PR #3736]</a></li>
-              <li>Implemented upstream_claims propagation for consistent JWT custom claim handling across services. <a href="https://github.com/PrefectHQ/fastmcp/pull/3750" target="_blank" rel="noopener" style="text-decoration: underline; opacity: 0.7;">[PR #3750]</a></li>
-              <li>Fixed OpenAPI nullable schema generation bug, improving API client compatibility. <a href="https://github.com/PrefectHQ/fastmcp/pull/3768" target="_blank" rel="noopener" style="text-decoration: underline; opacity: 0.7;">[PR #3768]</a></li>
+              <li>Patched an asynchronous lifecycle state leak by dynamically provisioning a fresh session manager per runtime cycle, eliminating thread task-group failures in multi-run test suites. <a href="https://github.com/PrefectHQ/fastmcp/pull/3736" target="_blank" rel="noopener" style="text-decoration: underline; opacity: 0.7;">[PR #3736]</a></li>
+              <li>Hardened token validation pipelines using thread-safe deep-copy model replication to propagate upstream identity claims across service boundaries without cross-request state pollution. <a href="https://github.com/PrefectHQ/fastmcp/pull/3750" target="_blank" rel="noopener" style="text-decoration: underline; opacity: 0.7;">[PR #3750]</a></li>
+              <li>Resolved an OpenAPI-to-JSON Schema mismatch by intercepting nullable flags and injecting null parameters into enum constraints, protecting autogenerated client SDKs from runtime errors. <a href="https://github.com/PrefectHQ/fastmcp/pull/3768" target="_blank" rel="noopener" style="text-decoration: underline; opacity: 0.7;">[PR #3768]</a></li>
             </ul>
             <div class="tech-tags">
-              <span>FastAPI</span><span>Pydantic</span><span>OAuth2/JWT</span><span>ASGI lifespans</span>
+              <span>FastAPI</span><span>Pydantic</span><span>OAuth2/JWT</span><span>HTTPX</span>
             </div>
           </div>
         </div>
@@ -178,7 +178,7 @@ Type 'help' to see available commands.</pre>
 
   <section id="projects" class="section">
     <div class="container">
-      <h2 class="section-title">Projects</h2>
+      <h2 class="section-title">Featured Projects</h2>
       <div class="projects-grid">
 
         <div class="project-card fade-in">
@@ -193,13 +193,13 @@ Type 'help' to see available commands.</pre>
             </a>
           </div>
           <h3 class="project-name">United</h3>
-          <p class="project-type">[Real-Time Tournament Platform]: Architecture developed for live tournament management and data synchronization layers.</p>
+          <p class="project-type">[Real-Time Tournament Platform]: Front-end architecture developed for live tournament management and real-time state synchronization.</p>
           <ul class="project-details">
-            <li>Designed and implemented a real-time tournament management system with secure authentication and live data synchronization.</li>
-            <li>Developed REST APIs to support tournament workflows and leaderboard updates.</li>
+            <li>Engineered a responsive front-end single-page architecture using ReactJS to handle live tournament management dashboards and dynamic interface updates.</li>
+            <li>Integrated secure user session states with component-level input validation barriers to ensure real-time data state synchronization.</li>
           </ul>
           <div class="tech-tags">
-            <span>React</span><span>JavaScript</span><span>REST APIs</span>
+            <span>ReactJS</span><span>JavaScript</span><span>State Synchronization</span><span>Responsive UI</span>
           </div>
         </div>
 
@@ -223,11 +223,11 @@ Type 'help' to see available commands.</pre>
           <h3 class="project-name">SociaSphere</h3>
           <p class="project-type">[Social Media Backend Engine]: Backend services engineered to reduce connection constraints and handle data queries under concurrent load.</p>
           <ul class="project-details">
-            <li>Implemented JWT-based authentication and rate limiting for secure and controlled user access.</li>
-            <li>Optimized feed queries and introduced caching strategies to reduce response time under concurrent usage.</li>
+            <li>Developed a secure session-based authentication system, constructing server-side request validation layers to protect database entities from malformed data payloads.</li>
+            <li>Reduced feed query complexity from O(N) relational round-trips to O(1) single-query execution using explicit relationship prefetching and database annotations.</li>
           </ul>
           <div class="tech-tags">
-            <span>Python</span><span>Django</span><span>PostgreSQL</span><span>REST APIs</span><span>Pillow</span>
+            <span>Django</span><span>PostgreSQL</span><span>REST APIs</span><span>ORM Prefetching</span><span>Database Annotations</span>
           </div>
         </div>
 
@@ -251,11 +251,11 @@ Type 'help' to see available commands.</pre>
           <h3 class="project-name">EduToolsHub</h3>
           <p class="project-type">[Workflow Automation Platform]: Asynchronous automation gate built to interface with external application systems safely.</p>
           <ul class="project-details">
-            <li>Designed workflow automation system integrating multiple external APIs with validation and error handling.</li>
-            <li>Developed REST endpoints with structured logging, input validation, and failure handling mechanisms.</li>
+            <li>Integrated <strong>4 external service APIs</strong> into a monolithic controller layer, enforcing explicit <strong>5-second timeout boundaries</strong> and elegant empty-state schema fallbacks.</li>
+            <li>Built a secure, server-side rendered application utilizing a <strong>3-layer input validation pipeline</strong> coupled with a dictionary-configured framework for structured logging.</li>
           </ul>
           <div class="tech-tags">
-            <span>Python</span><span>Django</span><span>REST APIs</span><span>Requests</span>
+            <span>Django</span><span>Python</span><span>Requests</span><span>API Integration</span><span>Structured Logging</span>
           </div>
         </div>
 
@@ -271,28 +271,35 @@ Type 'help' to see available commands.</pre>
         <div class="skill-group fade-in">
           <h3 class="skill-group-title">Languages</h3>
           <div class="skill-tags">
-            <span>Python</span><span>SQL</span><span>JavaScript</span><span>Java</span><span>C</span><span>C++</span>
+            <span>Python</span><span>SQL</span><span>Java</span><span>JavaScript</span><span>C</span><span>C++</span>
           </div>
         </div>
 
         <div class="skill-group fade-in">
-          <h3 class="skill-group-title">Backend & Systems</h3>
+          <h3 class="skill-group-title">Frameworks &amp; Libraries</h3>
           <div class="skill-tags">
-            <span>FastAPI</span><span>Django</span><span>Flask</span><span>REST APIs</span><span>SQLAlchemy</span><span>Alembic</span><span>Asynchronous Architecture</span><span>JWT Authentication</span><span>Database Indexing</span>
+            <span>FastAPI</span><span>Django</span><span>Flask</span><span>SQLAlchemy</span><span>Alembic</span><span>Pydantic</span><span>ReactJS</span>
           </div>
         </div>
 
         <div class="skill-group fade-in">
-          <h3 class="skill-group-title">Databases & Cloud</h3>
+          <h3 class="skill-group-title">Databases &amp; Messaging</h3>
           <div class="skill-tags">
-            <span>PostgreSQL</span><span>Supabase</span><span>Amazon Web Services (AWS)</span><span>Oracle Cloud Infrastructure (OCI)</span><span>Render</span>
+            <span>PostgreSQL</span><span>RabbitMQ</span><span>Supabase</span>
           </div>
         </div>
 
         <div class="skill-group fade-in">
-          <h3 class="skill-group-title">Data & ML</h3>
+          <h3 class="skill-group-title">Cloud Services &amp; Architecture</h3>
           <div class="skill-tags">
-            <span>PyTorch</span><span>TensorFlow</span><span>OpenCV</span><span>Scikit-Learn</span><span>Pandas</span><span>NumPy</span><span>MediaPipe</span>
+            <span>Amazon Web Services (AWS)</span><span>Oracle Cloud Infrastructure (OCI)</span><span>OAuth2/JWT</span><span>Render</span>
+          </div>
+        </div>
+
+        <div class="skill-group fade-in">
+          <h3 class="skill-group-title">AI &amp; Machine Learning</h3>
+          <div class="skill-tags">
+            <span>PyTorch</span><span>TensorFlow</span><span>OpenCV</span><span>Scikit-Learn</span><span>Pandas</span><span>NumPy</span><span>MediaPipe</span><span>Matplotlib</span><span>Jupyter</span>
           </div>
         </div>
 
@@ -335,7 +342,7 @@ Type 'help' to see available commands.</pre>
           <div class="timeline-content">
             <div class="timeline-row-top">
               <h3>Co-Lead, Deep Learning &amp; Computer Vision Team</h3>
-              <span class="timeline-date">August 2025 – Present · 10 Field mos</span>
+              <span class="timeline-date">August 2025 – Present</span>
             </div>
             <div class="timeline-row-bottom">
               <span class="timeline-company"><a href="https://www.linkedin.com/company/machinelearningclubvitap/" target="_blank" rel="noopener">The Machine Learning Club VIT-AP</a></span>
@@ -343,11 +350,11 @@ Type 'help' to see available commands.</pre>
             </div>
             <ul class="timeline-details">
               <li>Led a 12-member team building computer vision and deep learning systems.</li>
-              <li>Developed GAN-based sketch-to-image system and real-time CV pipelines with optimized training workflows.</li>
-              <li>Mentored team members on debugging, model optimization, and implementation practices.</li>
+              <li>Developed GAN-based sketch-to-image and real-time CV pipelines with optimized training workflows.</li>
+              <li>Mentored members on debugging, model optimization, and implementation practices.</li>
             </ul>
             <div class="tech-tags">
-              <span>Python</span><span>TensorFlow</span><span>OpenCV</span><span>Git</span>
+              <span>Python</span><span>TensorFlow</span><span>OpenCV</span><span>Generative AI</span><span>Git</span>
             </div>
           </div>
         </div>
@@ -357,7 +364,7 @@ Type 'help' to see available commands.</pre>
           <div class="timeline-content">
             <div class="timeline-row-top">
               <h3>Member, Deep Learning Team</h3>
-              <span class="timeline-date">September 2024 – August 2025 · 1 yr</span>
+              <span class="timeline-date">September 2024 – August 2025</span>
             </div>
             <div class="timeline-row-bottom">
               <span class="timeline-company"><a href="https://www.linkedin.com/company/machinelearningclubvitap/" target="_blank" rel="noopener">The Machine Learning Club VIT-AP</a></span>
@@ -378,7 +385,7 @@ Type 'help' to see available commands.</pre>
           <div class="timeline-content">
             <div class="timeline-row-top">
               <h3>Member, Research Team</h3>
-              <span class="timeline-date">October 2023 – September 2024 · 1 yr</span>
+              <span class="timeline-date">October 2023 – September 2024</span>
             </div>
             <div class="timeline-row-bottom">
               <span class="timeline-company"><a href="https://www.linkedin.com/company/machinelearningclubvitap/" target="_blank" rel="noopener">The Machine Learning Club VIT-AP</a></span>
@@ -451,7 +458,7 @@ Type 'help' to see available commands.</pre>
           <span>kvdhanush06@gmail.com</span>
         </a>
         <a href="https://www.linkedin.com/in/venkata-dhanush-k/" target="_blank" rel="noopener" class="contact-item">
-          <svg viewBox="0 0 24 24" fill="currentColor" width="24" height="24"><path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433a2.062 2.062 0 01-2.063-2.065 2.064 2.064 1 112.063 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/></svg>
+          <svg viewBox="0 0 24 24" fill="currentColor" width="24" height="24"><path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433a2.062 2.062 0 01-2.063-2.065 2.064 1 112.063 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/></svg>
           <span>LinkedIn</span>
         </a>
       </div>
