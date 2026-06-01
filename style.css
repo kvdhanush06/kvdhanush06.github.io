@@ -135,10 +135,6 @@ strong {
   width: 100%;
 }
 
-.hero-left {
-  /* Intro side */
-}
-
 .hero-greeting {
   font-family: 'JetBrains Mono', monospace;
   font-size: 1rem;
@@ -227,10 +223,6 @@ strong {
 }
 
 /* ─── About (right column) ─────────────────────── */
-.hero-right {
-  /* About side */
-}
-
 .about-heading {
   font-size: 1.4rem;
   font-weight: 700;
@@ -250,34 +242,6 @@ strong {
   opacity: 0.8;
   margin-bottom: 16px;
   line-height: 1.7;
-}
-
-.about-stats {
-  display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  gap: 20px;
-  margin-top: 32px;
-  padding-top: 32px;
-  border-top: 1px solid #1a1a1a;
-}
-
-.stat {
-  text-align: center;
-}
-
-.stat-number {
-  display: block;
-  font-size: 1.8rem;
-  font-weight: 700;
-  font-family: 'JetBrains Mono', monospace;
-  margin-bottom: 4px;
-}
-
-.stat-label {
-  font-size: 0.75rem;
-  opacity: 0.5;
-  text-transform: uppercase;
-  letter-spacing: 1px;
 }
 
 /* ═══════════════════════════════════════════════
@@ -424,7 +388,7 @@ strong {
 
 .timeline-marker {
   position: absolute;
-  left: -30px; /* Centered on the line (40px padding - 10px offset) */
+  left: -30px; 
   top: 6px;
   width: 11px;
   height: 11px;
@@ -467,8 +431,6 @@ strong {
   font-weight: 600;
   margin: 0;
 }
-
-/* Removed .timeline-header h3 block */
 
 .timeline-company {
   font-size: 0.9rem;
@@ -598,16 +560,9 @@ strong {
 .project-type {
   font-size: 0.85rem;
   opacity: 0.5;
-  margin-bottom: 4px;
+  margin-bottom: 12px;
   font-style: italic;
-}
-
-.project-date {
-  display: block;
-  font-size: 0.78rem;
-  opacity: 0.35;
-  font-family: 'JetBrains Mono', monospace;
-  margin-bottom: 16px;
+  line-height: 1.5;
 }
 
 .project-details {
@@ -727,42 +682,8 @@ strong {
 }
 
 /* ═══════════════════════════════════════════════
-   LEADERSHIP
+   AWARDS
    ═══════════════════════════════════════════════ */
-.leadership-org {
-  margin-bottom: 40px;
-}
-
-.leadership-org-name {
-  font-size: 1.3rem;
-  font-weight: 600;
-  margin-bottom: 6px;
-}
-
-.leadership-org-name a {
-  color: #fff;
-  text-decoration: none;
-}
-.leadership-org-name a:hover {
-  text-decoration: underline;
-  opacity: 1;
-}
-
-.leadership-org-detail {
-  font-size: 0.85rem;
-  opacity: 0.45;
-  font-family: 'JetBrains Mono', monospace;
-}
-
-/* Awards */
-.awards-section {
-  margin-top: 60px;
-  padding-top: 40px;
-  border-top: 1px solid #1a1a1a;
-}
-
-/* .awards-title removed */
-
 .award-item {
   background: #111;
   border: 1px solid #1a1a1a;
@@ -814,16 +735,12 @@ strong {
   opacity: 1;
 }
 
-/* ═══════════════════════════════════════════════
-   FOOTER
-   ═══════════════════════════════════════════════ */
+/* ─── Footer ──────────────────────────────────── */
 footer {
   padding: 20px 0;
 }
 
-/* ═══════════════════════════════════════════════
-   ANIMATIONS
-   ═══════════════════════════════════════════════ */
+/* ─── Animations ──────────────────────────────── */
 .fade-in {
   opacity: 0;
   transform: translateY(30px);
@@ -834,9 +751,7 @@ footer {
   transform: translateY(0);
 }
 
-/* ═══════════════════════════════════════════════
-   RESPONSIVE
-   ═══════════════════════════════════════════════ */
+/* ─── Responsive Media Queries ────────────────── */
 @media (max-width: 768px) {
   .hero-about-grid {
     grid-template-columns: 1fr;
@@ -867,10 +782,6 @@ footer {
     left: -27px;
   }
 
-  .timeline-header {
-    flex-direction: column;
-  }
-
   .projects-grid {
     grid-template-columns: 1fr;
   }
@@ -898,10 +809,6 @@ footer {
 @media (max-width: 480px) {
   .hero-name {
     font-size: 1.8rem;
-  }
-
-  .about-stats {
-    gap: 12px;
   }
 
   .stat-number {
