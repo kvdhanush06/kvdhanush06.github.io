@@ -246,7 +246,7 @@
       case 'os':
         addResponse(
           '<pre>' +
-          '<a href="https://github.com/PrefectHQ/fastmcp" target="_blank" rel="noopener">Prefect — FastMCP</a>\n' +
+          '<a href="https://github.com/PrefectHQ/fastmcp" target="_blank" rel="noopener">Prefect — FastMCP</a>(25k+ Stars on GitHub)\n' +
           '[Open Source Framework Contribution]: Contributions to the primary Python framework implementing the Model Context Protocol (MCP) specification.\n' +
           '- Patched an asynchronous lifecycle state leak by dynamically provisioning a fresh session manager per runtime cycle, eliminating thread task-group failures in multi-run test suites.\n' +
           '- Hardened token validation pipelines using thread-safe deep-copy model replication to propagate upstream identity claims across service boundaries without cross-request state pollution.\n' +
