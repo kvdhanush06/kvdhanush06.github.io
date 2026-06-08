@@ -6,7 +6,7 @@ The portfolio highlights my work in backend engineering, distributed systems, AP
 
 ## Live Website
 
-**Portfolio:** https://portfolio.allkvd.dev
+**Portfolio:** https://kvdhanush06.github.io/
 
 ## About Me
 
@@ -36,7 +36,7 @@ Fault-Tolerant Workflow Automation Platform
 * Built a productivity-focused educational platform integrating multiple external services.
 * Implemented structured validation, timeout handling, and reliability-focused workflows.
 
-**Live:** https://edutoolshub.allkvd.dev
+**Live:** https://edutoolshub.onrender.com/
 
 ---
 
@@ -47,7 +47,7 @@ Distributed Feed Optimization Engine & Session Service
 * Developed secure authentication and content-sharing workflows.
 * Optimized feed retrieval and database access patterns for improved performance.
 
-**Live:** https://sociasphere.allkvd.dev
+**Live:** https://sociasphere.onrender.com/
 
 ## Open Source Contributions
 
