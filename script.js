@@ -8,8 +8,9 @@
 
   // ─── TYPING ANIMATION ───────────────────────────
   const roles = [
+    'Software Engineer',
     'Backend Engineer',
-    'Software Engineer'
+    'Distributed Systems Engineer'
   ];
 
   const typedEl = document.getElementById('typedRole');
@@ -192,8 +193,8 @@
       case 'about':
         addResponse(
           '<pre>' +
-          'I approach software engineering with a systems mindset—decomposing high-concurrency barriers into modular, asynchronous backend architectures. My technical focus centers on eliminating connection bottlenecks, converting linear system bottlenecks into constant-time executions, and designing low-latency, resilient data processing pipelines.\n\n' +
-          'Beyond building standalone application layers, I evaluate engineering toolchains from the inside out. I am an active upstream open-source contributor to Prefect’s core Python framework (FastMCP ecosystem), fixing asynchronous runtime lifespan vulnerabilities and OpenAPI schema compliance behaviors to improve framework reliability for developers globally.' +
+          'I am a Software Engineer focused on backend systems, distributed architectures, APIs, and AI-powered applications. My engineering approach centers on designing fault-tolerant architectures, database optimization, implementing multi-layer caching, and setting up background job processing pipelines to power data-intensive applications.\n\n' +
+          'Beyond standard development, I actively make upstream open-source contributions to core frameworks like Prefect\'s FastMCP ecosystem, hardening asynchronous lifecycles and runtime schemas to improve framework reliability for developers globally.' +
           '</pre>'
         );
         break;
@@ -220,24 +221,24 @@
       case 'projects':
         addResponse(
           '<pre>' +
-          'United — Real-Time Tournament Platform\n' +
-          'Links: <a href="https://github.com/kvdhanush06/united" target="_blank" rel="noopener">GitHub</a>\n' +
-          '[Real-Time Tournament Platform]: Front-end architecture developed for live tournament management and real-time state synchronization.\n' +
-          '- Engineered a responsive front-end single-page architecture using ReactJS to handle live tournament management dashboards and dynamic interface updates.\n' +
-          '- Integrated secure user session states with component-level input validation barriers to ensure real-time data state synchronization.\n\n' +
-          'Tech Stack: ReactJS, JavaScript, State Synchronization, Responsive UI\n\n\n' +
-          'SociaSphere — Distributed Feed Optimization Engine & Session Service\n' +
-          'Links: <a href="https://github.com/kvdhanush06/SociaSphere" target="_blank" rel="noopener">GitHub</a> | <a href="https://youtu.be/pIHj1mT5XzU" target="_blank" rel="noopener">Video Demo</a> | <a href="https://sociasphere.onrender.com/" target="_blank" rel="noopener">Live Site</a>\n' +
-          '[Distributed Feed Optimization Engine & Session Service]: Backend services engineered to reduce connection constraints and handle data queries under concurrent load.\n' +
-          '- Developed a secure session-based authentication system, constructing server-side request validation layers to protect database entities from malformed data payloads.\n' +
-          '- Reduced feed query complexity from O(N) relational round-trips to O(1) single-query execution using explicit relationship prefetching and database annotations.\n\n' +
-          'Tech Stack: Django, PostgreSQL, REST APIs\n\n\n' +
+          'CogniitSearch — Distributed Retrieval & Streaming Platform\n' +
+          'Links: <a href="https://github.com/kvdhanush06/CogniitSearch" target="_blank" rel="noopener">GitHub</a> | <a href="https://cogniitsearch.allkvd.dev/" target="_blank" rel="noopener">Live Site</a>\n' +
+          '[Distributed Retrieval & Streaming Platform]: Coordinates external services and processes queue-backed jobs for search and generation.\n' +
+          '- Architected a distributed retrieval platform coordinating 5 external services and queue-backed workers processing 14 concurrent jobs with retries and fault-tolerant recovery across search, retrieval, and LLM generation stages.\n' +
+          '- Reduced redundant retrieval workloads through multi-layer Redis caching (1-hour query TTL, 24-hour content TTL), while implementing query rewriting, response streaming, citation validation, and multi-turn AI workflows.\n\n' +
+          'Tech Stack: TypeScript, Node.js, Express.js, Redis, BullMQ, PostgreSQL, Supabase, React, Docker, Nginx\n\n\n' +
           'EduToolsHub — Fault-Tolerant Workflow Automation Platform\n' +
           'Links: <a href="https://github.com/kvdhanush06/EduToolsHub" target="_blank" rel="noopener">GitHub</a> | <a href="https://youtu.be/Fe0io0Mu53A" target="_blank" rel="noopener">Video Demo</a> | <a href="https://edutoolshub.onrender.com/" target="_blank" rel="noopener">Live Site</a>\n' +
           '[Fault-Tolerant Workflow Automation Platform]: Asynchronous automation gate built to interface with external application systems safely.\n' +
           '- Integrated 4 external service APIs into a monolithic controller layer, enforcing explicit 5-second timeout boundaries and elegant empty-state schema fallbacks.\n' +
           '- Built a secure, server-side rendered application utilizing a 3-layer input validation pipeline coupled with a dictionary-configured framework for structured logging.\n\n' +
-          'Tech Stack: Django, Python, Requests' +
+          'Tech Stack: Django, Python, Requests\n\n\n' +
+          'SociaSphere — Distributed Feed Optimization Engine & Session Service\n' +
+          'Links: <a href="https://github.com/kvdhanush06/SociaSphere" target="_blank" rel="noopener">GitHub</a> | <a href="https://youtu.be/pIHj1mT5XzU" target="_blank" rel="noopener">Video Demo</a> | <a href="https://sociasphere.onrender.com/" target="_blank" rel="noopener">Live Site</a>\n' +
+          '[Distributed Feed Optimization Engine & Session Service]: Backend services engineered to reduce connection constraints and handle data queries under concurrent load.\n' +
+          '- Developed a secure session-based authentication system, constructing server-side request validation layers to protect database entities from malformed data payloads.\n' +
+          '- Reduced feed query complexity from O(N) relational round-trips to O(1) single-query execution using explicit relationship prefetching and database annotations.\n\n' +
+          'Tech Stack: Django, PostgreSQL, REST APIs' +
           '</pre>'
         );
         break;
@@ -260,13 +261,13 @@
         addResponse(
           '<pre>' +
           'Languages:\n' +
-          'Python, SQL, Java, JavaScript, C/C++\n\n' +
+          'Python, TypeScript, JavaScript, SQL, Java, C/C++\n\n' +
           'Frameworks & Libraries:\n' +
-          'FastAPI, Django, Flask, SQLAlchemy, Alembic, Pydantic, ReactJS\n\n' +
+          'FastAPI, Express.js, Django, React, SQLAlchemy, Alembic, Pydantic\n\n' +
           'Databases & Messaging:\n' +
-          'PostgreSQL, RabbitMQ, Supabase\n\n' +
-          'Cloud Services:\n' +
-          'Amazon Web Services (AWS), Oracle Cloud Infrastructure (OCI)\n\n' +
+          'PostgreSQL, Redis, RabbitMQ, BullMQ, Supabase\n\n' +
+          'Cloud & Infrastructure:\n' +
+          'AWS, OCI, Docker, Nginx\n\n' +
           'AI & Machine Learning:\n' +
           'PyTorch, TensorFlow, OpenCV, Scikit-Learn, Pandas, NumPy, MediaPipe, Matplotlib, Jupyter, Generative AI\n\n' +
           'Tools:\n' +
@@ -340,6 +341,7 @@
       case 'contact':
         addResponse(
           '<pre>' +
+          'Open to: Software Engineering, Backend Engineering, and New Graduate opportunities.\n' +
           'Email: <a href="mailto:kvdhanush06@gmail.com">kvdhanush06@gmail.com</a>\n' +
           'LinkedIn: <a href="https://linkedin.com/in/venkata-dhanush-k" target="_blank" rel="noopener">linkedin.com/in/venkata-dhanush-k</a>' +
           '</pre>'
