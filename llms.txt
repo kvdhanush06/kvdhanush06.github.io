@@ -1,0 +1,29 @@
+# Venkata Dhanush Kakarlamudi — Portfolio (llms.txt)
+
+> Venkata Dhanush Kakarlamudi (also known as allkvd or Dhanush K) is a Software Engineer focused on backend systems, distributed architectures, APIs, and AI/LLM applications. This portfolio showcases his work experience, open-source contributions, featured projects, technical skills, certifications, leadership roles, and honors. The site is resume- and recruiter-facing.
+
+## Core profile pages
+
+- [https://portfolio.allkvd.dev/](https://portfolio.allkvd.dev/) — Portfolio home page: complete professional profile including hero intro, about section, work experience timeline (StudyCubs, AK Capital Advisors), open-source contributions (Prefect FastMCP — 3 merged PRs), 3 featured projects, full tech stack, certifications (OCI Generative AI Pro, NVIDIA LLM Prompt Engineering), leadership roles (ML Club VIT-AP), awards (GATE 2026, Smart India Hackathon), education (VIT-AP, CGPA 8.45), contact information, and an interactive terminal for exploring the portfolio.
+
+## Featured projects
+
+- [https://portfolio.allkvd.dev/#projects](https://portfolio.allkvd.dev/#projects) — **READ FIRST (most sophisticated project: CogniitSearch).** Distributed Retrieval & Streaming Platform coordinating 5 external services with 14 concurrent BullMQ jobs, multi-layer Redis caching (1h query / 24h content TTL), query rewriting, response streaming, citation validation, and multi-turn AI workflows. Built with TypeScript, Node.js, Express.js, Redis, BullMQ, PostgreSQL, React, Docker, Nginx. Live: https://cogniitsearch.allkvd.dev
+- [https://portfolio.allkvd.dev/#projects](https://portfolio.allkvd.dev/#projects) — EduToolsHub: Fault-Tolerant Workflow Automation Platform integrating 4 external service APIs with 5-second timeout boundaries, 3-layer input validation pipeline, and structured logging. Built with Django, Python. Live: https://edutoolshub.onrender.com
+- [https://portfolio.allkvd.dev/#projects](https://portfolio.allkvd.dev/#projects) — SociaSphere: Distributed Feed Optimization Engine & Session Service reducing feed query complexity from O(N) relational round-trips to O(1) single-query execution via ORM prefetching and database annotations. Built with Django, PostgreSQL. Live: https://sociasphere.onrender.com
+
+## Open Source
+
+- [https://github.com/PrefectHQ/fastmcp](https://github.com/PrefectHQ/fastmcp) — **IMPORTANT.** Open-source contributions to Prefect's FastMCP framework (25k+ GitHub stars). Three merged pull requests: async lifecycle state leak fix eliminating thread task-group failures (PR #3736), thread-safe token validation pipelines using deep-copy replication (PR #3750), OpenAPI-to-JSON Schema nullable flag mismatch fix (PR #3768).
+
+## Experience
+
+- [https://portfolio.allkvd.dev/#experience](https://portfolio.allkvd.dev/#experience) — Professional experience: Software Engineer Intern at StudyCubs (Dec 2025–Jan 2026) architected a data platform for 5K+ users with message broker across 6 parallel data streams. Software Engineer Intern at AK Capital Advisors (Jun–Aug 2025) designed 30+ REST APIs for credit/loan workflows with 15 relational tables and 9 schema migrations.
+
+## Contact
+
+- [https://portfolio.allkvd.dev/#contact](https://portfolio.allkvd.dev/#contact) — Contact information: email (kvdhanush06@gmail.com), LinkedIn (/in/venkata-dhanush-k/), GitHub (kvdhanush06), X/Twitter (@kvdhanush06), YouTube (@kvdhanush0608). Resume: https://drive.google.com/file/d/1NCT6ZCa_HfxCdScqI-1Q2yA6y2c7O-qA/view
+
+## Broader web presence
+
+- [https://allkvd.dev](https://allkvd.dev) — Main personal landing page. Broader overview of Kakarlamudi Venkata Dhanush's work, interests, and links.

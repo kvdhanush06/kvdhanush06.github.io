@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+
+  <!--
+    Sitemap for https://portfolio.allkvd.dev
+    Generated 2026-06-12
+    Add new project detail pages under /projects/<slug>/ as they are created.
+  -->
+
+  <!-- Home page — primary portfolio entry point -->
+  <url>
+    <loc>https://portfolio.allkvd.dev/</loc>
+    <changefreq>monthly</changefreq>
+    <priority>1.0</priority>
+  </url>
+
+  <!-- Project detail: CogniitSearch -->
+  <url>
+    <loc>https://portfolio.allkvd.dev/#projects</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <!--
+    When dedicated project pages are created, add entries like:
+
+    <url>
+      <loc>https://portfolio.allkvd.dev/projects/cogniitsearch/</loc>
+      <changefreq>monthly</changefreq>
+      <priority>0.8</priority>
+    </url>
+    <url>
+      <loc>https://portfolio.allkvd.dev/projects/edutoolshub/</loc>
+      <changefreq>monthly</changefreq>
+      <priority>0.8</priority>
+    </url>
+    <url>
+      <loc>https://portfolio.allkvd.dev/projects/sociasphere/</loc>
+      <changefreq>monthly</changefreq>
+      <priority>0.8</priority>
+    </url>
+
+    <url>
+      <loc>https://portfolio.allkvd.dev/experience/</loc>
+      <changefreq>monthly</changefreq>
+      <priority>0.6</priority>
+    </url>
+    <url>
+      <loc>https://portfolio.allkvd.dev/contact/</loc>
+      <changefreq>yearly</changefreq>
+      <priority>0.4</priority>
+    </url>
+  -->
+
+</urlset>

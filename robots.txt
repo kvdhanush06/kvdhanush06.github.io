@@ -1,0 +1,11 @@
+# robots.txt for https://portfolio.allkvd.dev
+# Hosted on GitHub Pages — static portfolio site
+# All content is recruiter-facing and intended for full indexing.
+
+User-agent: *
+Allow: /
+
+# No disallowed paths exist on this static portfolio.
+# CSS, JS, images, and all content pages are crawlable.
+
+Sitemap: https://portfolio.allkvd.dev/sitemap.xml
