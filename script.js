@@ -8,9 +8,10 @@
 
   // ─── TYPING ANIMATION ───────────────────────────
   const roles = [
-    'Software Engineer',
-    'Backend Engineer',
-    'Distributed Systems Engineer'
+    'Backend & Systems Software Engineer',
+    'FastAPI & Distributed Queues Specialist',
+    'PostgreSQL & Database Optimization Engineer',
+    'Open Source Contributor @ Prefect FastMCP'
   ];
 
   const typedEl = document.getElementById('typedRole');
@@ -193,8 +194,12 @@
       case 'about':
         addResponse(
           '<pre>' +
-          'I am a Software Engineer focused on backend systems, distributed architectures, APIs, and AI-powered applications. My engineering approach centers on designing fault-tolerant architectures, database optimization, implementing multi-layer caching, and setting up background job processing pipelines to power data-intensive applications.\n\n' +
-          'Beyond standard development, I actively make upstream open-source contributions to core frameworks like Prefect\'s FastMCP ecosystem, hardening asynchronous lifecycles and runtime schemas to improve framework reliability for developers globally.' +
+          'I am a Software Engineer specializing in backend systems, distributed architectures, and data-intensive applications. My work focuses on designing fault-tolerant services, optimizing database query paths, and building scalable APIs that handle real-world concurrency.\n\n' +
+          'Highlights:\n' +
+          '• GATE 2026 Qualified (Computer Science & Information Technology)\n' +
+          '• Ex-Software Engineer Intern @ StudyCubs & AK Capital Advisors\n' +
+          '• Open Source Contributor @ Prefect FastMCP (25k+ Stars on GitHub)\n' +
+          '• Smart India Hackathon 2025 National Round Qualifier' +
           '</pre>'
         );
         break;
@@ -203,16 +208,16 @@
         addResponse(
           '<pre>' +
           'Software Engineer Intern — <a href="https://www.linkedin.com/company/study-cubs/" target="_blank" rel="noopener">StudyCubs</a>\n' +
-          'December 2025 - January 2026\n' +
-          '- Architected a data platform for 5K+ users, offloading real-time webhooks and 180-day batch syncs via a message broker across 6 parallel data streams.\n' +
+          'December 2025 - January 2026 | Remote — Pune, MH\n' +
+          '- Architected a high-throughput data platform for 5K+ users, offloading real-time webhooks and 180-day batch syncs via RabbitMQ across 6 parallel data streams.\n' +
           '- Reduced database lookup complexity from O(N) table scans to O(log N) index seeks using a composite B-tree index on user and date fields for atomic upserts.\n' +
-          '- Hardened throughput via 500-item chunked bulk upserts and nested transactions to isolate data failures and prevent complete batch rollbacks.\n\n' +
+          '- Engineered fault-tolerant ingestion pipelines via 500-item chunked bulk upserts and nested transactions to isolate data failures and prevent complete batch rollbacks.\n\n' +
           'Tech Stack: FastAPI, PostgreSQL, RabbitMQ, SQLAlchemy, Alembic\n\n\n' +
           'Software Engineer Intern — <a href="https://www.linkedin.com/company/ak-capital-advisors/" target="_blank" rel="noopener">AK Capital Advisors</a>\n' +
-          'June 2025 - August 2025\n' +
-          '- Designed 30+ credit and loan workflow REST APIs, implementing strict financial domain validation using structured data schemas and token-based authentication dependencies.\n' +
-          '- Managed 15 relational tables and 2 database views across 9 schema migrations, enforcing data integrity via explicit foreign keys and unique constraints.\n' +
-          '- Standardized API error semantics by deploying a centralized error catalog, utilizing explicit transactional rollbacks to preserve database state during failures.\n\n' +
+          'June 2025 - August 2025 | Remote — Pune, MH\n' +
+          '- Designed 30+ credit and loan workflow REST APIs, implementing strict financial domain validation using Pydantic schemas and OAuth2/JWT token authentication dependencies.\n' +
+          '- Executed 9 database schema migrations across 15 relational tables and 2 views using Alembic, enforcing strict data integrity via explicit foreign keys and unique constraints.\n' +
+          '- Standardized API error semantics by deploying a centralized error catalog with explicit transactional rollbacks to preserve database state during failures.\n\n' +
           'Tech Stack: FastAPI, PostgreSQL, SQLAlchemy, Alembic, Supabase' +
           '</pre>'
         );
@@ -221,24 +226,21 @@
       case 'projects':
         addResponse(
           '<pre>' +
-          'CogniitSearch — Distributed Retrieval & Streaming Platform\n' +
+          'CogniitSearch — Distributed Retrieval-Augmented Search Platform\n' +
           'Links: <a href="https://github.com/kvdhanush06/CogniitSearch" target="_blank" rel="noopener">GitHub</a> | <a href="https://cogniitsearch.allkvd.dev/" target="_blank" rel="noopener">Live Site</a>\n' +
-          '[Distributed Retrieval & Streaming Platform]: Coordinates external services and processes queue-backed jobs for search and generation.\n' +
           '- Architected a distributed retrieval platform coordinating 5 external services and queue-backed workers processing 14 concurrent jobs with retries and fault-tolerant recovery across search, retrieval, and LLM generation stages.\n' +
           '- Reduced redundant retrieval workloads through multi-layer Redis caching (1-hour query TTL, 24-hour content TTL), while implementing query rewriting, response streaming, citation validation, and multi-turn AI workflows.\n\n' +
           'Tech Stack: TypeScript, Node.js, Express.js, Redis, BullMQ, PostgreSQL, Supabase, React, Docker, Nginx\n\n\n' +
           'EduToolsHub — Fault-Tolerant Workflow Automation Platform\n' +
           'Links: <a href="https://github.com/kvdhanush06/EduToolsHub" target="_blank" rel="noopener">GitHub</a> | <a href="https://youtu.be/Fe0io0Mu53A" target="_blank" rel="noopener">Video Demo</a> | <a href="https://edutoolshub.onrender.com/" target="_blank" rel="noopener">Live Site</a>\n' +
-          '[Fault-Tolerant Workflow Automation Platform]: Asynchronous automation gate built to interface with external application systems safely.\n' +
-          '- Integrated 4 external service APIs into a monolithic controller layer, enforcing explicit 5-second timeout boundaries and elegant empty-state schema fallbacks.\n' +
-          '- Built a secure, server-side rendered application utilizing a 3-layer input validation pipeline coupled with a dictionary-configured framework for structured logging.\n\n' +
-          'Tech Stack: Django, Python, Requests\n\n\n' +
+          '- Integrated 4 external service APIs into a monolithic controller layer, enforcing explicit 5-second timeout boundaries and structured fallback schemas.\n' +
+          '- Built a secure application utilizing a 3-layer input validation pipeline coupled with a dictionary-configured framework for structured logging.\n\n' +
+          'Tech Stack: Django, Python, Requests, PostgreSQL\n\n\n' +
           'SociaSphere — Distributed Feed Optimization Engine & Session Service\n' +
           'Links: <a href="https://github.com/kvdhanush06/SociaSphere" target="_blank" rel="noopener">GitHub</a> | <a href="https://youtu.be/pIHj1mT5XzU" target="_blank" rel="noopener">Video Demo</a> | <a href="https://sociasphere.onrender.com/" target="_blank" rel="noopener">Live Site</a>\n' +
-          '[Distributed Feed Optimization Engine & Session Service]: Backend services engineered to reduce connection constraints and handle data queries under concurrent load.\n' +
-          '- Developed a secure session-based authentication system, constructing server-side request validation layers to protect database entities from malformed data payloads.\n' +
+          '- Developed a secure session-based authentication pipeline with JWT handling, implementing server-side request validation layers to protect database entities from malformed payloads.\n' +
           '- Reduced feed query complexity from O(N) relational round-trips to O(1) single-query execution using explicit relationship prefetching and database annotations.\n\n' +
-          'Tech Stack: Django, PostgreSQL, REST APIs' +
+          'Tech Stack: Django, Python, PostgreSQL, REST APIs, JWT' +
           '</pre>'
         );
         break;
@@ -248,11 +250,11 @@
         addResponse(
           '<pre>' +
           '<a href="https://github.com/PrefectHQ/fastmcp" target="_blank" rel="noopener">Prefect — FastMCP</a> (25k+ Stars on GitHub)\n' +
-          '[Open Source Framework Contribution]: Contributions to the primary Python framework implementing the Model Context Protocol (MCP) specification.\n' +
-          '- Patched an asynchronous lifecycle state leak by dynamically provisioning a fresh session manager per runtime cycle, eliminating thread task-group failures in multi-run test suites.\n' +
-          '- Hardened token validation pipelines using thread-safe deep-copy model replication to propagate upstream identity claims across service boundaries without cross-request state pollution.\n' +
-          '- Resolved an OpenAPI-to-JSON Schema mismatch by intercepting nullable flags and injecting null parameters into enum constraints, protecting autogenerated client SDKs from runtime errors.\n\n' +
-          'Tech Stack: FastAPI, Pydantic, OAuth2/JWT, HTTPX' +
+          '[Open Source Framework Contribution]: Upstream contributions to Prefect\'s Model Context Protocol (MCP) framework.\n' +
+          '- Patched an asynchronous lifecycle state leak by dynamically provisioning a fresh session manager per runtime cycle, eliminating thread task-group failures in multi-run test suites. [PR #3736]\n' +
+          '- Hardened token validation pipelines using thread-safe deep-copy model replication to propagate upstream identity claims across service boundaries without cross-request state pollution. [PR #3750]\n' +
+          '- Resolved an OpenAPI-to-JSON Schema mismatch by intercepting nullable flags and injecting null parameters into enum constraints, protecting autogenerated client SDKs from runtime errors. [PR #3768]\n\n' +
+          'Tech Stack: FastAPI, Pydantic, OAuth2/JWT, AsyncIO, OpenAPI' +
           '</pre>'
         );
         break;
@@ -268,8 +270,6 @@
           'PostgreSQL, Redis, RabbitMQ, BullMQ, Supabase\n\n' +
           'Cloud & Infrastructure:\n' +
           'AWS, OCI, Docker, Nginx\n\n' +
-          'AI & Machine Learning:\n' +
-          'PyTorch, TensorFlow, OpenCV, Scikit-Learn, Pandas, NumPy, MediaPipe, Matplotlib, Jupyter, Generative AI\n\n' +
           'Tools:\n' +
           'Git, GitHub, Postman' +
           '</pre>'
@@ -291,10 +291,10 @@
           '<pre>' +
           'Co-Lead, Deep Learning & Computer Vision Team\n' +
           'Club: <a href="https://www.linkedin.com/company/machinelearningclubvitap/" target="_blank" rel="noopener">The Machine Learning Club VIT-AP</a>\n' +
-          'Timeline: August 2025 – Present\n' +
-          '- Led a 12-member team building computer vision and deep learning systems.\n' +
-          '- Developed GAN-based sketch-to-image and real-time CV pipelines with optimized training workflows.\n' +
-          '- Mentored members on debugging, model optimization, and implementation practices.\n\n\n' +
+          'Timeline: August 2025 – July 2026\n' +
+          '- Led a 12-member engineering team building computer vision and deep learning systems.\n' +
+          '- Developed GAN-based sketch-to-image systems and real-time CV pipelines with optimized training workflows.\n' +
+          '- Mentored members on debugging, model optimization, and engineering practices.\n\n\n' +
           'Member, Deep Learning Team\n' +
           'Club: <a href="https://www.linkedin.com/company/machinelearningclubvitap/" target="_blank" rel="noopener">The Machine Learning Club VIT-AP</a>\n' +
           'Timeline: September 2024 – August 2025\n' +
@@ -312,15 +312,15 @@
       case 'awards':
         addResponse(
           '<pre>' +
-          'GATE 2026 Qualified – Computer Science\n' +
+          'GATE 2026 Qualified – Computer Science & IT\n' +
           'Issued by Indian Institute of Technology, Guwahati · March 2026\n' +
           '- Qualified Graduate Aptitude Test in Engineering (GATE) 2026 in Computer Science and Information Technology.\n\n\n' +
           'Smart India Hackathon 2025 – National Round Qualifier\n' +
-          'Issued by VIT-AP · September 2025\n' +
+          'Issued by Ministry of Education / VIT-AP · September 2025\n' +
           '- Selected as National Round Qualifier in Smart India Hackathon 2025.\n' +
           '- Contributed to development of an AI-based agricultural platform delivering localized crop insights.\n\n\n' +
           'Smart India Hackathon 2023 – National Round Qualifier (Team Leader)\n' +
-          'Issued by VIT-AP · September 2023\n' +
+          'Issued by Ministry of Education · September 2023\n' +
           '- Selected as National Round Qualifier in Smart India Hackathon 2023.\n' +
           '- Led a team to build a time-series weather forecasting system with a 7-day prediction horizon.' +
           '</pre>'
@@ -330,10 +330,10 @@
       case 'education':
         addResponse(
           '<pre>' +
-          'VIT-AP University, Andhra Pradesh\n' +
-          'Bachelor of Technology, Computer Science & Engineering\n' +
-          'Timeline: September 2023 – June 2027\n' +
-          'Grade: CGPA 8.47 / 10\n' +
+          'Bachelor of Technology in Computer Science and Engineering\n' +
+          'Vellore Institute of Technology (VIT-AP University), Andhra Pradesh\n' +
+          'Timeline: 2023 – 2027\n' +
+          'CGPA: 8.47 / 10\n' +
           '</pre>'
         );
         break;

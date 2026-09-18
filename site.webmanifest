@@ -1,14 +1,14 @@
 {
   "name": "Venkata Dhanush Kakarlamudi — Software Engineer Portfolio",
   "short_name": "Dhanush Portfolio",
-  "description": "Portfolio of Venkata Dhanush Kakarlamudi — a Software Engineer specializing in backend systems, distributed architectures, APIs, and AI/LLM applications. Explore projects, experience, and open-source contributions.",
+  "description": "Portfolio of Venkata Dhanush Kakarlamudi — Software Engineer specializing in backend systems, distributed architectures, high-throughput APIs, and database performance optimization. GATE 2026 CS Qualified.",
   "lang": "en",
   "start_url": "/",
   "scope": "/",
   "display": "standalone",
   "theme_color": "#0a0a0a",
   "background_color": "#0a0a0a",
-  "categories": ["portfolio", "technology", "software engineering"],
+  "categories": ["portfolio", "technology", "software engineering", "backend engineering"],
   "icons": [
     {
       "src": "/icons/portfolio-192.png",
