@@ -33,7 +33,7 @@ jobs:
               '<meta name="twitter:title" content="Venkata Dhanush Kakarlamudi — Software Engineering Portfolio">'
           )
 
-          old_same = '''    "sameAs": [\n      "https://www.linkedin.com/in/venkata-dhanush-k/",\n      "https://github.com/kvdhanush06",\n      "https://x.com/kvdhanush06",\n      "https://www.youtube.com/@kvdhanush0608/videos"\n    ],'''
+          old_same = '''    "sameAs": [\n      "https://www.linkedin.com/in/venkata-dhanush-k/",\n      "https://github.com/kvdhanush06",\n      "https://x.com/kvdhanush06",\n      "https://www.youtube.com/@kvdhanush0608"\n    ],'''
           new_same = '''    "sameAs": [\n      "https://www.linkedin.com/in/venkata-dhanush-k/",\n      "https://github.com/kvdhanush06",\n      "https://x.com/kvdhanush06",\n      "https://medium.com/@kvdhanush06",\n      "https://stackoverflow.com/users/30895562/venkata-dhanush-kakarlamudi",\n      "https://www.youtube.com/@kvdhanush0608/videos"\n    ],'''
           if old_same not in s:
               raise SystemExit('Expected portfolio sameAs block not found')
